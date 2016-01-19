@@ -1,6 +1,7 @@
 body {
 	margin-top: 20px;
 	overflow: scroll;
+	background-image: url('../img/sos.png');
 }
 #nav-bar{
 	text-align: center;
@@ -9,6 +10,7 @@ body {
 	padding-bottom: 50px;
 
 }
+
 #nav-bar ul{
 	text-align: center;
 }
@@ -108,5 +110,8 @@ body {
 	width: 83%;
 }
 #node img {
-	width: 104%;
+	width: 102%;
+}
+#html img {
+	width: 95%;
 }

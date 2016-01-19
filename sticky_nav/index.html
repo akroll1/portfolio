@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,10 +18,10 @@
 	<nav id="nav-bar" class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<ul>
-				<li class="active" id="homea"><a href="#">Home</a></li>
-				<li><a href="#about" id="abouta">About</a></li>
-				<li><a href="#main" id="projectsa">Projects</a></li>
-				<li><a href="#contact" id="contacta">Contact</a></li>
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#main">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</div>		
 	</nav>
@@ -78,52 +79,58 @@
 
 		<div id="main" class="col-sm-12">	
 			<div class="row">
-			<h1>Project Details</h1>
-				<a href="http://cleanchat.andrewkroll.com"><h2>CleanChat</h2></a><p>An instant messenger program utilizing socket.io with a filter for curse words built-in.</p>
+			<h2>Project Details</h2>
+				<a href="http://cleanchat.andrewkroll.com"><h3>CleanChat</h3></a><p>A Node.js powered instant messenger program utilizing sockets.io with a filter for curse words built-in.</p>
 
-				<a href="http://coffee.andrewkroll.com"><h2>E-commerce Coffee Site</h2></a> <p>A fully functional e-commerce site powered by Node.js and utilizing Stripe's payment system. </p>
+				<a href="http://coffee.andrewkroll.com"><h3>E-commerce Coffee Site</h3></a> <p>A functional e-commerce site powered by Node.js utilizing Stripe's payment system. </p>
 				
-				<a href="http://khalifa.andrewkroll.com"><h2>Khalifa.js</h2></a> <p>An out-of-the-box Node.js routing system, similar to Express.</p>
+				<a href="http://khalifa.andrewkroll.com"><h3>Khalifa.js</h3></a> <p>I am a contributor to an open-source, out-of-the-box Node.js routing system, similar to Express.</p>
 				
-				<a href="http://moviedb.andrewkroll.com"><h2>MovieDB</h2></a> <p>A searchable movie database powered by omdb.com's API.</p>
+				<a href="http://moviedb.andrewkroll.com"><h3>MovieDB</h3></a> <p>A searchable movie database powered by omdb.com's API.</p>
 
-				<a href="http://slots.andrewkroll.com"><h2>Slots</h2></a> <p>A slot machine game that I developed on my own, from design to logic.</p>
+				<a href="http://slots.andrewkroll.com"><h3>Slots</h3></a> <p>A slot machine game that I developed on my own, from design to logic. Not much to look at but I focused on developing the logic using all jQuery, a tried and true javascript library.</p>
 
-				<a href="http://youtube.andrewkroll.com"><h2>YouTube Mockup</h2></a> <p>A YouTube mockup designed from a wireframe.</p>
+				<a href="http://youtube.andrewkroll.com"><h3>YouTube Mockup</h3></a> <p>A YouTube mockup designed from a wireframe, with real youtube search function from the youtube API.</p>
 			</div>	
 		</div>
 		
 		<div id="contact" class="col-sm-8 col-sm-offset-2">
 			<div class="row">
-				<h1>Contact Me</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="col-sm-10 col-sm-offset-1">
+					<h1>Contact Me</h1>
+						<form action="mail.php" method="post">
+						  <div class="form-group">
+						    <label>Email address</label>
+						    <input type="email" class="form-control" name="email" placeholder="Email">
+						  </div>
+						  <div class="form-group"> 
+						  	<label>Message</label>
+						  	<input type="text" class="form-control"  name="message" placeholder="Message">
+						  </div>
+						<input class="btn btn-primary" type="submit" value="submit"></button>
+						</form>  
+						</form> 
+					</div>	 
 			</div>	
 		</div>
 		<div id="footer" class="col-sm-12">
-			<div class="col-sm-3">
-				<img src="../img/jq.png">
-			</div>
-			<div class="col-sm-3">
-				<img src="../img/html5.png">
+			<div class="col-sm-3" id="node">
+				<img src="../img/node3.png">
 			</div>
 			<div class="col-sm-3" id="css">
 				<img src="../img/css3.png">
 			</div>
-			<div class="col-sm-3" id="node">
-				<img src="../img/node3.png">
+			<div class="col-sm-3" id="html">
+				<img src="../img/html5.png">
+			</div>
+			<div class="col-sm-3" id="jq">
+				<img src="../img/jq.png">
 			</div>
 			
 
 		</div>
 	
 	</div>	
-
-
 
 </div>
 </body>

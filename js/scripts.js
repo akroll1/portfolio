@@ -2,6 +2,7 @@
 
 $(document).ready(function(){
 
+
 	var mainNav = $('#nav-bar');
 	var mainNavScroll = 'nav-bar-scrolled';
 	var headerHeight = $('#header').height();
@@ -11,11 +12,11 @@ $(document).ready(function(){
 	// console.log('this is about height ' + headerHeight);
 
 	$('#nav-bar li a').click(function(){
-	// 	if ( $(this).scrollTop() > headerHeight) ){
+		// if ( $(this).scrollTop() > headerHeight) {
 
-	// }
 			$('.active').removeClass('active');
 			$(this).addClass('active');
+		// }
 	});
 
 
