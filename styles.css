@@ -1,0 +1,117 @@
+body {
+	margin-top: 20px;
+	overflow: scroll;
+	background-image: url('../img/sos.png');
+}
+#nav-bar{
+	text-align: center;
+	background-color: white;
+	height: 50px;
+	padding-bottom: 50px;
+
+}
+
+#nav-bar ul{
+	text-align: center;
+}
+#nav-bar li{
+	display: inline-block;
+	padding: 24px 12px;
+}
+#nav-bar a{
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #444;
+}
+#nav-bar .active{
+	border-top: 2px solid #f09258;
+	padding-top: 10px;
+}
+#nav-bar.nav-bar-scrolled{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	border-bottom: none;
+}
+.nav-bar-header {
+	float: none;
+}
+#heading {
+	margin-top: 40px;
+	background-size: 100%;
+}
+#heading h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	color: #f09258;
+	font-family: Candal;
+}
+#heading img {
+	width: 100%;
+	text-align: center;
+}
+#pane-divs {
+	margin-top: 40px;
+}
+#pane-divs h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	color: red;
+	margin-bottom: 100px;
+}
+#panes {
+	height: 280px;
+	padding: 30px;
+	position: relative;
+	border-radius: 5px;
+}
+#panes img {
+	width: 100%;
+	height: 100%;
+}
+#panes:hover {
+	opacity: 0.7;
+}
+#panes h3 {
+	position: absolute;
+	top: -10px;
+	left: 5px;
+}
+#main{
+	margin-top: 20px;
+	padding: 80px 50px 50px;
+	/*border-top: 1px dotted #cacaca;*/
+}
+#main h2 {
+	color: #f09258;
+}
+#main a:link {
+	text-decoration: none;
+}
+#blank-space {
+	height: 120px;
+	color: #cacaca;
+}
+#about {
+	padding: 80px 50px 50px;
+}
+#contact {
+	padding: 80px 50px 50px;
+	margin-bottom: 50px;
+}
+#footer {
+	width: 100%;
+}
+#css img {
+	width: 83%;
+}
+#node img {
+	width: 102%;
+}
+#html img {
+	width: 95%;
+}
