@@ -8,8 +8,8 @@ body {
 	background-color: white;
 	height: 50px;
 	padding-bottom: 50px;
-	/*background-image: url('img/p2.png');*/
 	box-shadow: 6px 1px 6px gray;
+	opacity: 0.8;
 }
 
 #nav-bar ul{
