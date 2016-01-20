@@ -8,7 +8,8 @@ body {
 	background-color: white;
 	height: 50px;
 	padding-bottom: 50px;
-
+	/*background-image: url('img/p2.png');*/
+	box-shadow: 6px 1px 6px gray;
 }
 
 #nav-bar ul{
@@ -38,6 +39,9 @@ body {
 .nav-bar-header {
 	float: none;
 }
+#above-heading {
+	margin-bottom: 20px;
+}
 #heading {
 	margin-top: 40px;
 	background-size: 100%;
@@ -55,13 +59,17 @@ body {
 }
 #pane-divs {
 	margin-top: 40px;
+	margin-bottom: 100px;
+	margin-left: 70px;
 }
 #pane-divs h1{
 	text-align: center;
 	font-weight: bold;
 	font-size: 40px;
-	color: red;
+	color: #f09258;
 	margin-bottom: 100px;
+	padding: 100px;
+	line-height: 1;
 }
 #panes {
 	height: 280px;
@@ -82,9 +90,9 @@ body {
 	left: 5px;
 }
 #main{
-	margin-top: 20px;
-	padding: 80px 50px 50px;
-	/*border-top: 1px dotted #cacaca;*/
+	/*margin-top: 80px;*/
+	padding: 10px 50px 50px;
+	/*border-bottom: 2px solid #cacaca;*/
 }
 #main h2 {
 	color: #f09258;
@@ -97,11 +105,20 @@ body {
 	color: #cacaca;
 }
 #about {
+	margin: 10px;
 	padding: 80px 50px 50px;
 }
+#about-sub {
+
+}
+#about h1 {
+	font-weight: bold;
+	font-size: 30px;
+	color: #f09258;
+}
 #contact {
-	padding: 80px 50px 50px;
-	margin-bottom: 50px;
+	padding: 30px 50px 50px;
+	/*margin-bottom: 50px;*/
 }
 #footer {
 	width: 100%;
@@ -114,4 +131,25 @@ body {
 }
 #html img {
 	width: 95%;
+}
+#filler {
+	background-image: url('img/p2.png');
+	height: 15px;
+	width: 100%;
+	border-radius: 10px;
+}
+#inner-filler {
+	height: 6px;
+	background-color: white;
+}
+#footer2 {
+	background-image: url('img/p2.png');
+	height: 50px;
+	border-radius: 5px;
+} #footer2 h5 {
+	text-align: center;
+	padding-top: 20px;
+}
+#project-div {
+	margin-top: 40px;
 }
