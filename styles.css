@@ -9,7 +9,8 @@ body {
 	height: 50px;
 	padding-bottom: 50px;
 	box-shadow: 6px 1px 6px gray;
-	opacity: 0.8;
+	opacity: 0.9;
+	background-image: url('../img/p2.png');
 }
 
 #nav-bar ul{
@@ -18,16 +19,18 @@ body {
 #nav-bar li{
 	display: inline-block;
 	padding: 24px 12px;
+	text-shadow: #000 0px 1px 1px;
 }
 #nav-bar a{
 	font-size: 16px;
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #444;
+	color: #cacaca;
+	font-weight: bold;
 }
 #nav-bar .active{
-	border-top: 2px solid #f09258;
+	border-top: 2px solid #905E3E;
 	padding-top: 10px;
 }
 #nav-bar.nav-bar-scrolled{
@@ -40,17 +43,18 @@ body {
 	float: none;
 }
 #above-heading {
-	margin-bottom: 20px;
+	background-color: #905E3E;
 }
 #heading {
 	margin-top: 40px;
 	background-size: 100%;
+	margin-bottom: 150px;
 }
 #heading h1{
 	text-align: center;
 	font-weight: bold;
 	font-size: 50px;
-	color: #f09258;
+	color: #905E3E;
 	font-family: Candal;
 }
 #heading img {
@@ -58,18 +62,20 @@ body {
 	text-align: center;
 }
 #pane-divs {
-	margin-top: 40px;
-	margin-bottom: 100px;
 	margin-left: 70px;
+	margin-top: 50px;
+	border: 1px dotted black;
+	padding-bottom: 30px;
+	border-radius: 8px;
 }
 #pane-divs h1{
 	text-align: center;
 	font-weight: bold;
 	font-size: 40px;
-	color: #f09258;
-	margin-bottom: 100px;
+	color: #905E3E;
+/*	margin-bottom: 100px;
 	padding: 100px;
-	line-height: 1;
+*/	line-height: 1;
 }
 #panes {
 	height: 280px;
@@ -90,35 +96,36 @@ body {
 	left: 5px;
 }
 #main{
-	/*margin-top: 80px;*/
-	padding: 10px 50px 50px;
+	margin-top: 20px;
+	padding: 80px 110px;
 	/*border-bottom: 2px solid #cacaca;*/
 }
 #main h2 {
-	color: #f09258;
+	color: #905E3E;
 }
 #main a:link {
 	text-decoration: none;
 }
-#blank-space {
-	height: 120px;
-	color: #cacaca;
-}
 #about {
+	background-color: #905E3E;
 	margin: 10px;
-	padding: 80px 50px 50px;
-}
-#about-sub {
+	padding: 30px 50px 50px;
+	font-color: white;
+	margin-top: 30px;
+	height: 320px;
 
 }
 #about h1 {
 	font-weight: bold;
 	font-size: 30px;
-	color: #f09258;
+	color: #905E3E;
+	text-align: center;
 }
 #contact {
 	padding: 30px 50px 50px;
-	/*margin-bottom: 50px;*/
+	margin-top: 40px;
+	margin-bottom: 60px;
+	background-color: #905E3E;
 }
 #footer {
 	width: 100%;
@@ -132,24 +139,16 @@ body {
 #html img {
 	width: 95%;
 }
-#filler {
-	background-image: url('img/p2.png');
-	height: 15px;
-	width: 100%;
-	border-radius: 10px;
-}
-#inner-filler {
-	height: 6px;
-	background-color: white;
+#jq img{
+	width: 98%;
 }
 #footer2 {
 	background-image: url('img/p2.png');
-	height: 50px;
+	height: 160px;
 	border-radius: 5px;
-} #footer2 h5 {
+	padding: 40px;
+} 
+#footer2 h5 {
 	text-align: center;
-	padding-top: 20px;
-}
-#project-div {
-	margin-top: 40px;
+	padding-top: 80px;
 }
