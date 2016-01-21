@@ -5,12 +5,12 @@ body {
 }
 #nav-bar{
 	text-align: center;
-	background-color: white;
-	height: 50px;
+	/*background-color: white;*/
+	height: 40px;
 	padding-bottom: 50px;
 	box-shadow: 6px 1px 6px gray;
 	opacity: 0.9;
-	background-image: url('../img/p2.png');
+	background-image: url('img/p2.png');
 }
 
 #nav-bar ul{
@@ -142,13 +142,13 @@ body {
 #jq img{
 	width: 98%;
 }
-#footer2 {
+/*#footer2 {
 	background-image: url('img/p2.png');
 	height: 160px;
 	border-radius: 5px;
 	padding: 40px;
-} 
+} */
 #footer2 h5 {
 	text-align: center;
-	padding-top: 80px;
+	/*padding-top: 20px;*/
 }
