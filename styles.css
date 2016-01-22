@@ -3,16 +3,15 @@ body {
 	overflow: scroll;
 	/*background-image: url('img/seampaper.png');*/
 }
-#hidden {
-}
 #nav-bar{
+	border-bottom: 1px solid #27458a;
 	text-align: center;
-	/*background-color: white;*/
-	height: 40px;
+/*	background-color: rgba(138,109,59,0.75);
+*/	height: 40px;
 	padding-bottom: 50px;
 	/*box-shadow: 6px 1px 6px gray;*/
 	opacity: 0.9;
-	background-image: url('img/p2.png');
+	/*background-image: url('img/p2.png');*/
 }
 
 #nav-bar ul{
@@ -28,7 +27,7 @@ body {
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #cacaca;
+	color: #27458a;
 	font-weight: bold;
 }
 #nav-bar .active{
@@ -47,11 +46,14 @@ body {
 /*============= NAV BAR ===================*/
 #about {
 	/*background-color: rgba(138,109,59,0.81);*/
-	margin: 10px;
+	margin-top: 55px;
+	margin-bottom: 45px;
 	padding: 30px 50px 50px;
 	font-color: white;
-	margin-top: 30px;
+	margin-top: 43px;
 	height: 240px;
+	border: 2px solid #27458a;
+	border-radius: 8px;
 }
 #about h1 {
 	font-weight: bold;
@@ -60,7 +62,7 @@ body {
 	text-align: center;
 }
 #me img {
-	border-box: 1px solid black;
+	border: 1px solid #27458a;
 	border-radius: 4px;
 	opacity: 0.9;
 }
@@ -76,6 +78,7 @@ body {
 }
 #above-heading {
 	background-color: rgba(138,109,59,0.81);
+	border: 2px solid #27458a;
 }
 #heading {
 	margin-top: 40px;
@@ -86,9 +89,8 @@ body {
 	text-align: center;
 	font-weight: bold;
 	font-size: 50px;
-	/*color: rgba(138,109,59,0.81);*/
+	color: rgba(138,109,59,0.81);
 	font-family: Candal;
-	color: black;
 }
 #heading img {
 	width: 100%;
@@ -97,10 +99,12 @@ body {
 #pane-divs {
 	margin-left: 70px;
 	margin-top: 50px;
-	border: 1px dotted black;
+	border: 2px solid #27458a;
 	padding-bottom: 30px;
 	border-radius: 8px;
-	background-image: url('img/p2.png');
+	/*background-image: url('img/p2.png');*/
+	background-color: #f0f1f5;
+	
 
 }
 #pane-divs h1{
@@ -137,8 +141,13 @@ body {
 #main h2 {
 	color: rgba(138,109,59,0.81);
 }
+#main {
+	color: #27458a;
+}
 #main a:link {
-	text-decoration: none;
+/*	text-decoration: none;
+*/
+	color: #27458a	
 }
 
 #contact {
@@ -146,9 +155,12 @@ body {
 	margin-top: 40px;
 	margin-bottom: 60px;
 	background-color: rgba(138,109,59,0.81);
+	border: 2px solid #27458a;
 }
+
 #footer {
 	width: 100%;
+	border-bottom: 2px solid #27458a;
 }
 #css img {
 	width: 83%;
@@ -170,5 +182,6 @@ body {
 } */
 #footer2 h5 {
 	text-align: center;
+	color: #27458a;
 	/*padding-top: 20px;*/
 }

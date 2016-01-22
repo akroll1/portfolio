@@ -36,9 +36,9 @@ $(document).ready(function(){
 	if( $(this).scrollTop() > 10 ) {
 		$('#hidden').fadeIn(1200).removeClass('hidden');		
 	}
-	if( $(this).scrollTop() < 10){
-		$('#hidden').addClass('hidden');		
-	}
+	// if( $(this).scrollTop() < 10){
+	// 	$('#hidden').addClass('hidden');		
+	// }
 
 	// if( $(this).scrollTop()  >= 734 ) {
 	// 	active.addClass('active');
