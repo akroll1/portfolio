@@ -33,7 +33,7 @@ $(document).ready(function(){
 	// 		mainNav.removeClass(mainNavScroll);
 	// 	}	
 	// });
-	if( $(this).scrollTop() > 10 ) {
+	if( $(this).scrollTop() > 40 ) {
 		$('#hidden').fadeIn(1200).removeClass('hidden');		
 	}
 	// if( $(this).scrollTop() < 10){
