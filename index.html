@@ -14,35 +14,43 @@
 </head>
 
 <body>
+	<div class="hidden" id="hidden">
+		<div class="container">
+			<nav id="nav-bar" class="navbar navbar-default navbar-fixed-top">
+				<div class="container">
+					<ul>
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#main">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>		
+			</nav>
+		</div>
+	</div>	
 	<div class="container">
-		<nav id="nav-bar" class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
-				<ul>
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#main">Projects</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</div>		
-		</nav>
-	</div>
-	<div class="container">
-				<div id="heading" class="col-sm-6 col-sm-offset-3">
-					<h1>Andrew Kroll's Featured Project</h1>
-						<a href="https://pacific-caverns-35765.herokuapp.com/"><img src="img/cleanchat.png"></a>
-				</div>
-	</div>				
+		<div id="heading" class="col-sm-6 col-sm-offset-3">
+			<h1>Andrew Kroll's Featured Project</h1>
+			<a href="https://pacific-caverns-35765.herokuapp.com/"><img src="img/cleanchat.png"></a>
+		</div>
+	</div>	
+
 	<div id="above-heading">
 		<div class="container">	
 			<div id="about" class="col-sm-12">
 				<div class="col-sm-7" id="about-sub">
 						<p class="lead">Hello, welcome to my site! I'm a web developer in Atlanta, Georgia. I'm currently about to graduate from Digital Crafts, a full-stack coding bootcamp located in Buckhead, Atlanta, Georgia. I love javascript and the internet of things generally, and I'm a big fan of Node.js!</p>
 				</div>	
-				<div class="col-sm-3 col-sm-offset-1">
-						Put picture here!
+				<div class="col-sm-3 col-sm-offset-1" id="me">
+					<img src="img/me2.jpg">
 				</div>
-				<div class="col-sm-12">
-
+				<div class="col-sm-12" id="about-icons">
+					<div class="col-sm-1 col-sm-offset-2">
+						<a href="#"><img src="img/in.png"></a>
+					</div>
+					<div class="col-sm-1">
+						<a href="https://github.com/akroll1"><img src="img/github.png"></a>
+					</div>		
 				</div>	
 			</div>
 		</div>	
@@ -136,7 +144,7 @@
 
 	</div>	
 	<div id="footer2">
-		<h5>Andrew Kroll &copy;2016</h5>
+		<h5>&copy;2016 Andrew Kroll</h5>
 	</div>
 </body>
 </html>

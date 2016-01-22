@@ -1,14 +1,16 @@
 body {
 	margin-top: 20px;
 	overflow: scroll;
-	background-image: url('../img/sos.png');
+	/*background-image: url('img/seampaper.png');*/
+}
+#hidden {
 }
 #nav-bar{
 	text-align: center;
 	/*background-color: white;*/
 	height: 40px;
 	padding-bottom: 50px;
-	box-shadow: 6px 1px 6px gray;
+	/*box-shadow: 6px 1px 6px gray;*/
 	opacity: 0.9;
 	background-image: url('img/p2.png');
 }
@@ -30,7 +32,7 @@ body {
 	font-weight: bold;
 }
 #nav-bar .active{
-	border-top: 2px solid #905E3E;
+	border-top: 2px solid rgba(138,109,59,0.81);
 	padding-top: 10px;
 }
 #nav-bar.nav-bar-scrolled{
@@ -42,8 +44,38 @@ body {
 .nav-bar-header {
 	float: none;
 }
+/*============= NAV BAR ===================*/
+#about {
+	/*background-color: rgba(138,109,59,0.81);*/
+	margin: 10px;
+	padding: 30px 50px 50px;
+	font-color: white;
+	margin-top: 30px;
+	height: 240px;
+}
+#about h1 {
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(138,109,59,0.81);
+	text-align: center;
+}
+#me img {
+	border-box: 1px solid black;
+	border-radius: 4px;
+	opacity: 0.9;
+}
+#about-icons {
+	width: 115%;
+	border-radius: 10px;
+}
+#about-icons img:hover {
+	opacity: 0.7;
+}
+#about-sub img {
+	border-radius: 45px;
+}
 #above-heading {
-	background-color: #905E3E;
+	background-color: rgba(138,109,59,0.81);
 }
 #heading {
 	margin-top: 40px;
@@ -54,8 +86,9 @@ body {
 	text-align: center;
 	font-weight: bold;
 	font-size: 50px;
-	color: #905E3E;
+	/*color: rgba(138,109,59,0.81);*/
 	font-family: Candal;
+	color: black;
 }
 #heading img {
 	width: 100%;
@@ -67,12 +100,14 @@ body {
 	border: 1px dotted black;
 	padding-bottom: 30px;
 	border-radius: 8px;
+	background-image: url('img/p2.png');
+
 }
 #pane-divs h1{
 	text-align: center;
 	font-weight: bold;
 	font-size: 40px;
-	color: #905E3E;
+	color: rgba(138,109,59,0.81);
 /*	margin-bottom: 100px;
 	padding: 100px;
 */	line-height: 1;
@@ -98,34 +133,19 @@ body {
 #main{
 	margin-top: 20px;
 	padding: 80px 110px;
-	/*border-bottom: 2px solid #cacaca;*/
 }
 #main h2 {
-	color: #905E3E;
+	color: rgba(138,109,59,0.81);
 }
 #main a:link {
 	text-decoration: none;
 }
-#about {
-	background-color: #905E3E;
-	margin: 10px;
-	padding: 30px 50px 50px;
-	font-color: white;
-	margin-top: 30px;
-	height: 320px;
 
-}
-#about h1 {
-	font-weight: bold;
-	font-size: 30px;
-	color: #905E3E;
-	text-align: center;
-}
 #contact {
 	padding: 30px 50px 50px;
 	margin-top: 40px;
 	margin-bottom: 60px;
-	background-color: #905E3E;
+	background-color: rgba(138,109,59,0.81);
 }
 #footer {
 	width: 100%;

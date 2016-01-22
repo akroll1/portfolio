@@ -1,4 +1,4 @@
-body {
+/*body {
 	margin-top: 20px;
 	overflow: scroll;
 	background-image: url('../img/sos.png');
@@ -84,7 +84,7 @@ body {
 #main{
 	margin-top: 20px;
 	padding: 80px 50px 50px;
-	/*border-top: 1px dotted #cacaca;*/
+	border-top: 1px dotted #cacaca;
 }
 #main h2 {
 	color: #f09258;
@@ -114,4 +114,4 @@ body {
 }
 #html img {
 	width: 95%;
-}
+}*/
