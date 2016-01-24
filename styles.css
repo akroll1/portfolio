@@ -9,7 +9,7 @@ body {
 	opacity: 0.9;
 }
 #nav-bar{
-	border-bottom: 1px solid #27458a;
+	border-bottom: 1px solid #black;
 	text-align: center;
 	height: 60px;
 	padding-bottom: 50px;
@@ -47,15 +47,17 @@ body {
 }
 /*============= ABOUT BAR ===================*/
 #about {
-	/*background-color: rgba(138,109,59,0.81);*/
 	margin-top: 55px;
 	margin-bottom: 45px;
 	padding: 30px 50px 50px;
-	font-color: white;
+	/*font-color: white;*/
 	margin-top: 43px;
 	height: 240px;
 	border: 2px solid black;
 	border-radius: 8px;
+}
+#about span{
+	width: 100%;
 }
 #about h1 {
 	font-weight: bold;
@@ -84,7 +86,7 @@ body {
 }
 /*================== HEADING ==================*/
 #header {
-	height: 1005px;
+	height: 1012px;
 	width: 100%;
 }
 #header img {
@@ -189,7 +191,7 @@ body {
 	width: 102%;
 }
 #html img {
-	width: 95%;
+	width: 94%;
 }
 #jq img{
 	width: 98%;
