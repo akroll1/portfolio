@@ -9,6 +9,7 @@ body {
 	opacity: 0.9;
 }
 #nav-bar{
+	z-index: 10;
 	border-bottom: 1px solid #black;
 	text-align: center;
 	height: 60px;
@@ -45,6 +46,39 @@ body {
 .nav-bar-header {
 	float: none;
 }
+/*================== FEATURED PROJECT ===========*/
+
+#featured-main {
+	margin-bottom: 40px;
+	margin-bottom: 20px;
+}
+#featured-main img {
+	border-radius: 5px;
+}
+#featured-project img:hover {
+	opacity: 0.85;
+}
+#featured-main .img-responsive {
+	margin: 0 auto;
+}
+#featured-main h1 {
+	text-align: center;
+}
+#featured-main h2 {
+	text-align: center;
+}
+#featured-project img {
+	padding: 5px;
+	border-radius: 10px;
+}
+#para {
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	font-style: bold;
+	font-size: 14px;
+}
 /*============= ABOUT BAR ===================*/
 #about {
 	margin-top: 55px;
@@ -52,7 +86,7 @@ body {
 	padding: 30px 50px 50px;
 	/*font-color: white;*/
 	margin-top: 43px;
-	height: 240px;
+	height: 290px;
 	border: 2px solid black;
 	border-radius: 8px;
 }
@@ -111,8 +145,8 @@ body {
 	text-align: center;
 }
 #pane-divs {
-	margin-left: 70px;
-	margin-top: 50px;
+/*	margin-left: 70px;
+*/	margin-top: 9px;
 	border: 2px solid black;
 	padding-bottom: 30px;
 	border-radius: 8px;
@@ -182,7 +216,8 @@ body {
 /*================ FOOTER ===================*/
 #footer {
 	width: 100%;
-	border-bottom: 2px solid black;
+/*	border-bottom: 2px solid black;
+*/	margin-bottom: 30px;
 }
 #css img {
 	width: 83%;
@@ -199,5 +234,6 @@ body {
 #footer2 h5 {
 	text-align: center;
 	color: rgba(138,109,59,0.81);
+	border-top: 2px solid black;
 	/*padding-top: 20px;
 }
