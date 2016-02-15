@@ -75,11 +75,14 @@ body {
 #para {
 	border-bottom: 2px solid rgba(138,109,59,0.81);
 	border-top: 2px solid rgba(138,109,59,0.81);
-	margin-top: 40px;
+	margin-top: 15px;
 	margin-bottom: 30px;
 	font-style: bold;
 	font-size: 14px;
 	padding-top: 20px;
+}
+#spaces-trees {
+	text-align: center;
 }
 /*============= ABOUT BAR ===================*/
 #about {
@@ -119,6 +122,7 @@ body {
 #above-heading {
 	background-color: rgba(138,109,59,0.81);
 	border: 2px solid black;
+	margin-top: 57px;
 }
 /*================== HEADING ==================*/
 #header {
@@ -131,7 +135,7 @@ body {
 	width: 100%;
 }
 #heading {
-	margin-top: 40px;
+	margin-top: 60px;
 	/*background-size: 100%;*/
 	margin-bottom: 150px;
 }
