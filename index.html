@@ -1,4 +1,4 @@
-<?
+<?php
 	require_once('mail.php');
 
 ?>	
@@ -146,6 +146,10 @@
 				<h1>Contact Me</h1>
 				<p class="lead">Let's talk, drop me a line!</p>
 				<form action="mail.php" method="post">
+					  <div class="form-group">
+					    <label>Name</label>
+					    <input type="text" class="form-control" name="name" placeholder="Name">
+					  </div>
 					  <div class="form-group">
 					    <label>Email address</label>
 					    <input type="email" class="form-control" name="email" placeholder="Email">
