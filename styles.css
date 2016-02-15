@@ -10,7 +10,7 @@ body {
 }
 #nav-bar{
 	z-index: 10;
-	border-bottom: 1px solid #black;
+	border-bottom: 1px solid black;
 	text-align: center;
 	height: 60px;
 	padding-bottom: 50px;
@@ -63,6 +63,7 @@ body {
 }
 #featured-main h1 {
 	text-align: center;
+	font-style: bold;
 }
 #featured-main h2 {
 	text-align: center;
@@ -72,12 +73,13 @@ body {
 	border-radius: 10px;
 }
 #para {
-	border-bottom: 2px solid black;
-	border-top: 2px solid black;
+	border-bottom: 2px solid rgba(138,109,59,0.81);
+	border-top: 2px solid rgba(138,109,59,0.81);
 	margin-top: 40px;
 	margin-bottom: 30px;
 	font-style: bold;
 	font-size: 14px;
+	padding-top: 20px;
 }
 /*============= ABOUT BAR ===================*/
 #about {
