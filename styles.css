@@ -79,9 +79,7 @@ body {
 	font-size: 14px;
 	padding-top: 20px;
 }
-#spaces-trees {
-	text-align: center;
-}
+
 /*============= ABOUT BAR ===================*/
 #about {
 	margin-top: 55px;
@@ -201,10 +199,15 @@ body {
 }
 #panes img:hover {
 	opacity: 0.95;
-	border: 10px solid  lightblue;
+	border: 12px solid  lightblue;
 	border-radius: 5px;
-	transition: 150ms;
+	transition: 100ms;
+	color: red;
 }
+#panes #hide {
+
+}
+
 #panes:hover {
 	color: rgba(138,109,59,0.81);
 }
@@ -271,6 +274,9 @@ body {
 	border-top: 2px solid black;
 	/*padding-top: 20px;*/*/
 }
+#spaces-trees {
+	text-align: center;
+}
 .letter {
         position: relative;
         top: -webkit-calc(50% - 60px);
@@ -285,6 +291,9 @@ body {
 .letter2 {
         -webkit-animation: fade 4s infinite 200ms;
         animation: fade 5s 5 1200ms;
+}
+.letter3 {
+	letter-spacing: 2px;
 }
 
 @-webkit-keyframes fade {
