@@ -138,6 +138,10 @@ body {
 	border: 2px solid black;
 	margin-top: 20px;
 }
+#house h2 {
+	text-shadow: 0px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+}
 /*================== HEADING ==================*/
 #header {
 	height: 1012px;
@@ -171,7 +175,7 @@ body {
 	color: rgba(138,109,59,0.81);
 	font-family: Candal;
 	text-shadow: 0px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black
+      1px 0 black, 0 -1px black;
 }
 #heading img {
 	width: 100%;
@@ -201,7 +205,7 @@ body {
 	font-size: 40px;
 	color: rgba(138,109,59,0.81);
 	line-height: 1;
-	text-shadow: -1px 0 black, 0 1px black,
+	text-shadow: 0px 0 black, 0 1px black,
       1px 0 black, 0 -1px black
 }
 #panes {
@@ -281,21 +285,22 @@ body {
 */	margin-bottom: 30px;
 }
 #css img {
-	width: 83%;
+	width: 67%;
 }
-#node img {
-	width: 102%;
+#js img {
+	width: 66%;
 }
 #html img {
-	width: 94%;
+	width: 74%;
 }
-#jq img{
-	width: 98%;
+#node img{
+	width: 83%;
 }
+
 #footer2 h5 {
 	text-align: center;
-	color: rgba(138,109,59,0.81);
-	border-top: 2px solid black;
+/*	color: rgba(138,109,59,0.81);
+*/	border-top: 2px solid black;
 	/*padding-top: 20px;*/*/
 }
 #spaces-trees h1 {
