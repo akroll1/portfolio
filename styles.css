@@ -220,7 +220,7 @@ body {
 	visibility: hidden;	
 }
 /*================ MAIN =================*/
-#main{
+#main {
 	margin-top: 20px;
 	padding: 0px 110px;
 }
@@ -231,7 +231,8 @@ body {
 	color: #27458a;
 }
 #main a:link {
-	color: #27458a	
+	text-decoration: none;
+	color: rgba(138,109,59,0.81);	
 }
 #main a:hover {
 	color: #27458a;
@@ -293,7 +294,7 @@ body {
         animation: fade 5s 5 1200ms;
 }
 .letter3 {
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 @-webkit-keyframes fade {
