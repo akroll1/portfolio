@@ -51,6 +51,7 @@ body {
 #featured-main {
 	margin-bottom: 40px;
 	margin-bottom: 20px;
+	font-family: candal;
 }
 #featured-main img {
 	border-radius: 5px;
@@ -64,9 +65,16 @@ body {
 #featured-main h1 {
 	text-align: center;
 	font-style: bold;
+	color: rgba(138,109,59,0.81);
+	font-size: 45px;
+	text-shadow: 0 0 0.2em #00ff00, 0 0 0.2em #00ff00;
+ 	
 }
 #featured-main h2 {
 	text-align: center;
+	color: rgba(138,109,59,0.81);
+	font-size: 35px;
+
 }
 #featured-project img {
 	padding: 5px;
@@ -128,12 +136,13 @@ body {
 .above-heading {
 	background-color: rgba(138,109,59,0.81);
 	border: 2px solid black;
-	margin-top: 57px;
+	margin-top: 20px;
 }
 /*================== HEADING ==================*/
 #header {
 	height: 1012px;
 	width: 100%;
+	margin-bottom: 53px;
 }
 #header img {
 	opacity: 0.9;
@@ -151,6 +160,18 @@ body {
 	font-size: 50px;
 	color: rgba(138,109,59,0.81);
 	font-family: Candal;
+/*	text-shadow: 0 0 0.2em #87F,
+		0 0 0.2em #87F;
+*/
+}
+.trees h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(138,109,59,0.81);
+	font-family: Candal;
+	text-shadow: 0px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
 }
 #heading img {
 	width: 100%;
@@ -179,9 +200,9 @@ body {
 	font-weight: bold;
 	font-size: 40px;
 	color: rgba(138,109,59,0.81);
-/*	margin-bottom: 100px;
-	padding: 100px;
-*/	line-height: 1;
+	line-height: 1;
+	text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
 }
 #panes {
 	height: 280px;
@@ -226,6 +247,8 @@ body {
 }
 #main h2 {
 	color: rgba(138,109,59,0.81);
+	font-weight: bold;
+	font-size: 40px;
 }
 #main {
 	color: #27458a;
@@ -275,8 +298,11 @@ body {
 	border-top: 2px solid black;
 	/*padding-top: 20px;*/*/
 }
-#spaces-trees {
+#spaces-trees h1 {
 	text-align: center;
+	text-shadow: 0px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+
 }
 .letter {
         position: relative;
@@ -284,6 +310,7 @@ body {
         top: calc(50% - 60px);
         text-shadow: 0px 0px 3px white;
         letter-spacing: -15px;
+       
 }
 .letter1 {
         -webkit-animation: fade 4s infinite 200ms;
@@ -291,7 +318,7 @@ body {
 }
 .letter2 {
         -webkit-animation: fade 4s infinite 200ms;
-        animation: fade 5s 5 1200ms;
+        animation: fade 5s 4 700ms;
 }
 .letter3 {
 	letter-spacing: 1px;
