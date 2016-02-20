@@ -50,8 +50,8 @@ body {
 #cars {
 	/*background: linear-gradient(top left, lightblue, white);	
 	background: linear-gradient(to bottom right, lightblue, white);}*/
-/*	background-image: url('img/tech.png');
-*/}
+	background-image: url('img/snow.png');
+}
 .cars {
 
 }	
@@ -137,7 +137,8 @@ body {
 	opacity: 0.7;
 }
 .lead a:link {
-	text-decoration: none;
+/*	text-decoration: none;
+*/	color: red;
 }
 #about-sub img {
 	border-radius: 45px;
@@ -145,7 +146,6 @@ body {
 .above-heading {
 	background-color: rgba(138,109,59,0.81);
 	border: 2px solid black;
-	margin-top: 70px;
 }
 #house h2 {
 	text-shadow: 0px 0 black, 0 1px black,
@@ -200,6 +200,8 @@ body {
 	border: 2px solid black;
 	padding-bottom: 30px;
 	border-radius: 8px;
+	background-image: url('img/snow.png');
+
 }
 #pane-divs h1{
 	text-align: center;
