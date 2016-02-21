@@ -197,8 +197,8 @@ body {
 	visibility: hidden;
 }
 #pane-divs {
-	border: 2px solid black;
-	padding-bottom: 30px;
+/*	border: 2px solid black;
+*/	padding-bottom: 30px;
 	border-radius: 8px;
 	background-image: url('img/snow.png');
 
@@ -214,12 +214,12 @@ body {
 }
 #panes {
 	height: 280px;
-	padding: 20px;
+	padding: 12px;
 	position: relative;
 	border-radius: 5px;
 }
-;#panes :hover {
-	border: 1px solid black;
+#panes :hover {
+	/*border: 1px solid black;*/
 }
 #panes img {
 	width: 100%;
@@ -228,7 +228,7 @@ body {
 }
 #panes img:hover {
 	opacity: 0.95;
-	border: 12px solid  lightblue;
+	border: 12px solid  rgba(138,109,59,0.81);
 	border-radius: 5px;
 	transition: 100ms;
 	color: red;
@@ -237,7 +237,7 @@ body {
 
 }
 
-#panes:hover {
+#panes :hover {
 	color: rgba(138,109,59,0.81);
 }
 #panes h3 {
@@ -249,6 +249,14 @@ body {
 	visibility: hidden;	
 }
 /*================ MAIN =================*/
+#skills {
+	margin-top: 50px;
+	border-top: 2px solid orange;
+	height: 200px;
+}
+#skills2 {
+	border-top: 2px solid red;
+}
 #main {
 	margin-top: 20px;
 	padding: 0px 110px;
