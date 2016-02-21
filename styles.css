@@ -48,8 +48,7 @@ body {
 }
 /*================== FEATURED PROJECT ===========*/
 #cars {
-	/*background: linear-gradient(top left, lightblue, white);	
-	background: linear-gradient(to bottom right, lightblue, white);}*/
+	padding-bottom: 30px;
 	background-image: url('img/snow.png');
 }
 .cars {
@@ -214,7 +213,7 @@ body {
 }
 #panes {
 	height: 280px;
-	padding: 12px;
+	padding: 20px;
 	position: relative;
 	border-radius: 5px;
 }
@@ -250,12 +249,15 @@ body {
 }
 /*================ MAIN =================*/
 #skills {
-	margin-top: 50px;
 	border-top: 2px solid orange;
-	height: 200px;
+	border-bottom: 2px solid orange;
+
 }
 #skills2 {
 	border-top: 2px solid red;
+	border-bottom: 2px solid red;
+	height: 50px;
+
 }
 #main {
 	margin-top: 20px;
