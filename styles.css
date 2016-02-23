@@ -138,7 +138,7 @@ body {
 	border-radius: 45px;
 }
 .above-heading {
-	background-color: rgba(138,109,59,0.81);
+	background-color: rgba(138,109,59,0.75);
 	border: 1px solid orange;
 }
 #house h2 {
@@ -193,7 +193,7 @@ body {
 	visibility: hidden;
 }
 #pane-divs {
-	border-bottom: 1px solid orange;
+	border-width: 1px groove #fff0d6;
 	padding-bottom: 50px;
 /*	border-radius-bottom: 8px;
 */	background-image: url('img/snow.png');
@@ -246,15 +246,19 @@ body {
 }
 /*================ MAIN =================*/
 #skills {
-	border-top: 2px solid orange;
-	border-bottom: 2px solid orange;
-
+	border-top: 1px solid orange;
+/*	border-bottom: 1px solid orange;
+*/
 }
 #skills2 {
-	border-top: 2px solid red;
-	border-bottom: 2px solid red;
-	height: 50px;
+	border-top: 1px solid red;
+/*	border-bottom: 1px solid red;
+*/	height: 50px;
 
+}
+.item img {
+	border: 1px dotted orange;
+	border-radius: 5px;
 }
 #main {
 	margin-top: 20px;
@@ -287,7 +291,7 @@ body {
 	padding: 0px 40px 30px;
 	margin-top: 10px;
 	margin-bottom: 55px;
-	background-color: rgba(138,109,59,0.81);
+	background-color: rgba(138,109,59,0.75);
 	border: 2px solid black;
 }
 /*================ FOOTER ===================*/
