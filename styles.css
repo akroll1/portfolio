@@ -10,7 +10,7 @@ body {
 }
 #nav-bar{
 	z-index: 10;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid rgba(138,109,59,0.81);
 	text-align: center;
 	height: 60px;
 	padding-bottom: 50px;
@@ -98,19 +98,16 @@ body {
 
 /*============= ABOUT BAR ===================*/
 #about {
-	margin-top: 55px;
-	margin-bottom: 45px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 	padding: 30px 50px 50px;
 	/*font-color: white;*/
-	margin-top: 43px;
-	height: 290px;
-	border: 2px solid black;
-	border-radius: 8px;
+/*	height: 290px;
+*//*	border: 2px solid black;
+*/	border-radius: 8px;
 }
 #about2 {
-	border: 2px solid black;
-	border-radius: 8px;
-	height: 450px;
+*/	height: 450px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
@@ -144,7 +141,7 @@ body {
 }
 .above-heading {
 	background-color: rgba(138,109,59,0.81);
-	border: 2px solid black;
+	border: 1px solid orange;
 }
 #house h2 {
 	text-shadow: 0px 0 black, 0 1px black,
@@ -198,10 +195,10 @@ body {
 	visibility: hidden;
 }
 #pane-divs {
-/*	border: 2px solid black;
-*/	padding-bottom: 30px;
-	border-radius: 8px;
-	background-image: url('img/snow.png');
+	border-bottom: 1px solid orange;
+	padding-bottom: 50px;
+/*	border-radius-bottom: 8px;
+*/	background-image: url('img/snow.png');
 
 }
 #pane-divs h1{
