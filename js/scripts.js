@@ -24,15 +24,20 @@ $(document).ready(function(){
 		// }
 	});
 	$(window).scroll(function(){
+		console.log($(this).scrollTop());
 
-	if( $(this).scrollTop() >= 575){
+	if( $(this).scrollTop() >= 570){
 		$('#port').removeClass('hidden');
 		$('#port').addClass('animated zoomIn');		
+	
 	}
-
+	// $(window).scroll(function(){
+	
+	if( $(this).scrollTop() >= 830){
+		$('.animates').addClass('animated bounceIn');
+	}
 	// $(window).scroll(function(){
 
-		// console.log($(this).scrollTop());
 	// 	if( $(this).scrollTop() > 734 ){
 	// 		mainNav.addClass(mainNavScroll);
 	// 	}else{

@@ -46,6 +46,9 @@ body {
 .nav-bar-header {
 	float: none;
 }
+#envelope img{
+  width: 60%;
+}
 /*================== FEATURED PROJECT ===========*/
 #cars {
 	padding-bottom: 30px;
@@ -304,7 +307,7 @@ body {
 	width: 67%;
 }
 #js img {
-	width: 67%;
+	width: 66%;
 }
 #html img {
 	width: 74%;
@@ -335,11 +338,11 @@ body {
 }
 .letter1 {
         -webkit-animation: fade 4s infinite 200ms;
-        animation: fade 5s 4 200ms;
+        animation: fade 4s 4 200ms;
 }
 .letter2 {
-        -webkit-animation: fade 4s infinite 200ms;
-        animation: fade 5s 4 700ms;
+        -webkit-animation: fade 3s infinite 700ms;
+        animation: fade 4s 4 700ms;
 }
 .letter3 {
 	letter-spacing: 1px;
