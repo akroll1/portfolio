@@ -341,7 +341,7 @@ body {
         animation: fade 4s 4 200ms;
 }
 .letter2 {
-        -webkit-animation: fade 3s infinite 700ms;
+        -webkit-animation: fade 4s infinite 700ms;
         animation: fade 4s 4 700ms;
 }
 .letter3 {

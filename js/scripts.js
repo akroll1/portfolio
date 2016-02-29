@@ -33,7 +33,7 @@ $(document).ready(function(){
 	}
 	// $(window).scroll(function(){
 	
-	if( $(this).scrollTop() >= 830){
+	if( $(this).scrollTop() >= 900){
 		$('.animates').addClass('animated bounceIn');
 	}
 	// $(window).scroll(function(){
