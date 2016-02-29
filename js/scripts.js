@@ -12,6 +12,8 @@ $(document).ready(function(){
 	var aboutHeight = $('#about').height();
 	var contactHeight = $('#contact').height();
 	var hiddenHeight = $('#hidden').height();
+	var port = $('#port').scrollTop();
+	console.log(port);
 	// console.log('this is about height ' + headerHeight);
 
 	$('#nav-bar li a').click(function(){
@@ -21,10 +23,14 @@ $(document).ready(function(){
 			$(this).addClass('active');
 		// }
 	});
-
-
-
 	$(window).scroll(function(){
+
+	if( $(this).scrollTop() >= 575){
+		$('#port').removeClass('hidden');
+		$('#port').addClass('animated zoomIn');		
+	}
+
+	// $(window).scroll(function(){
 
 		// console.log($(this).scrollTop());
 	// 	if( $(this).scrollTop() > 734 ){
@@ -36,9 +42,6 @@ $(document).ready(function(){
 	if( $(this).scrollTop() > 40 ) {
 		$('#hidden').fadeIn(1200).removeClass('hidden');		
 	}
-	// if( $(this).scrollTop() < 10){
-	// 	$('#hidden').addClass('hidden');		
-	// }
 
 	// if( $(this).scrollTop()  >= 734 ) {
 	// 	active.addClass('active');
