@@ -51,6 +51,7 @@ body {
 }
 /*================== FEATURED PROJECT ===========*/
 #cars {
+  margin-bottom: 35px;
 	padding-bottom: 30px;
 	background-image: url('../img/snow.png');
 }
@@ -92,8 +93,8 @@ body {
 	border-radius: 10px;
 }
 #para {
-	margin-top: 15px;
-	margin-bottom: 30px;
+	margin-top: 35px;
+	margin-bottom: 35px;
 	font-style: bold;
 	font-size: 14px;
 	padding-top: 20px;
@@ -198,6 +199,7 @@ body {
 	visibility: hidden;
 }
 #pane-divs {
+    margin-top: 40px;
 /*	border: 1px groove #fff0d6;
 */	padding-bottom: 50px;
 /*	border-radius-bottom: 8px;
@@ -296,7 +298,7 @@ body {
 	padding: 0px 40px 30px;
 	margin-top: 10px;
 	margin-bottom: 55px;
-	background-color: rgba(138,109,59,0.75);
+  background-color: rgba(99, 121, 125, 0.80);
 	border: 2px solid black;
 }
 /*================ FOOTER ===================*/
@@ -382,6 +384,8 @@ body {
 
 }
 .sign-wrap {
+  margin-bottom: 15px;
+  margin-top: 40px;
   display: inline-block;
 /*  margin-top: 40px;
 */  padding: 20px;
