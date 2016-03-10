@@ -98,6 +98,7 @@ body {
 	font-style: bold;
 	font-size: 14px;
 	padding-top: 20px;
+  color: #ffffff;
 }
 
 /*============= ABOUT BAR ===================*/
@@ -138,11 +139,15 @@ body {
 /*	text-decoration: none;
 */	color: red;
 }
+#about-sub {
+  color: #ffffff;
+  font-weight: bold;
+}
 #about-sub img {
 	border-radius: 45px;
 }
 .above-heading {
-  background-color: rgba(99, 121, 125, 0.80);
+  background-color: rgba(99, 121, 125, 0.95);
 	/*background-color: rgba(138,109,59,0.75);*/
 	border: 1px solid black;
 }
