@@ -144,7 +144,7 @@ body {
 .above-heading {
   background-color: rgba(99, 121, 125, 0.80);
 	/*background-color: rgba(138,109,59,0.75);*/
-	border: 2px solid orange;
+	border: 1px solid black;
 }
 #house h2 {
 	text-shadow: 0px 0 black, 0 1px black,
