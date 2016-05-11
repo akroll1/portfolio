@@ -16,6 +16,13 @@ $(document).ready(function(){
 	console.log(aboutIcons);
 	// console.log('this is about height ' + headerHeight);
 
+	$('.test').hover(function(){
+		(this).toggleClass('hidden');
+
+	});
+
+
+
 	$('#nav-bar li a').click(function(){
 		// if ( $(this).scrollTop() > headerHeight) {
 
