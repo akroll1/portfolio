@@ -228,7 +228,7 @@ body {
 }
 .panes:hover {
   background-color: #FF0000;
-  transition: ease-in 100ms;
+  transition: 100ms;
 }
 
 .panes img {
@@ -238,9 +238,8 @@ body {
 }
 .panes img:hover {
   opacity: 0.95;
-  border: 5px solid black;
+  border: 3px solid black;
   border-radius: 5px;
-  transition: 100ms;
   color: red;
 }
 .test {
@@ -345,6 +344,7 @@ body {
 
 }
 .letter {
+        color: #553300;
         position: relative;
         top: -webkit-calc(50% - 60px);
         top: calc(50% - 60px);
