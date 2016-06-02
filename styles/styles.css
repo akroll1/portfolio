@@ -135,9 +135,9 @@ body {
 #about-icons img:hover {
 	opacity: 0.7;
 }
-.lead a:link {
+.lead a {
 /*	text-decoration: none;
-*/	color: red;
+*/	color: #B22222;
 }
 #about-sub {
   color: #ffffff;
