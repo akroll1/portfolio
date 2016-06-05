@@ -161,7 +161,7 @@ $(document).ready(function(){
 			// });
 	$(window).scroll(function(){
 		var scroll = $(window).scrollTop();
-		console.log(scroll);
+		// console.log(scroll);
 
 		
 		if( (scroll >= 0) && (scroll < 419) ){
