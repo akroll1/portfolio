@@ -161,7 +161,7 @@ $(document).ready(function(){
 			// });
 	$(window).scroll(function(){
 		var scroll = $(window).scrollTop();
-		// console.log(scroll);
+		console.log(scroll);
 
 		
 		if( (scroll >= 0) && (scroll < 419) ){
@@ -176,13 +176,13 @@ $(document).ready(function(){
 			$('#aboutlink').removeClass('active');
 		}
 
-		if( (scroll > 1151) && (scroll < 3500) ){
+		if( (scroll > 1151) && (scroll < 4129) ){
 			$('#projectslink').addClass('active');
 		}else{
 			$('#projectslink').removeClass('active');
 		}
 
-		if(scroll > 3501){
+		if(scroll > 4130){
 			$('#contactlink').addClass('active');
 		}else
 			$('#contactlink').removeClass('active');
