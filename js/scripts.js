@@ -12,12 +12,12 @@ $(document).ready(function(){
 
 	var html1 = '<div class="switch"><a href="https://damp-woodland-2282.herokuapp.com"><h3>E-Commerce Coffee Site</h3><p>A fully functional e-commerce site powered by Node.js and utilizing Stripes payment system.</p></a></div>';
 	// var html2 = '<div class="switch"><a href="http://goblingame.andrewkroll.com"><h3>Goblin Game</h3><p>A simple game utilizing canvas. Use the arrow keys to move our hero around the board!</p></a></div>';
-	var html2 = '<div class="switch"><a href="https://iotandrew.herokuapp.com"><h3>IoTAndrew.com</h3><p>My blog on IoT, the internet of things. I touch on recent developments in IoT as well as IoT and artificial intelligence implications.</p></a></div>';
+	var html2 = '<div class="switch"><a href="http://www.iotandrew.com"><h3>IoTAndrew.com</h3><p>My blog on IoT, the internet of things. I touch on recent developments in IoT as well as IoT and artificial intelligence implications.</p></a></div>';
 	var html3 = '<div class="switch"><a href="http://moviedb.andrewkroll.com"><h3>OMDB Movie Search</h3><p>A searchable movie database powered by omdb.coms API.</p></a></div>';
-	var html4 = '<div class="switch"><a href="https://boxing101.herokuapp.com/"><h3>Boxing 101</h3><p>A labor of love and work in progress! An e-commerce site dedicated to all things boxing, even a fantasy fights API! A true boxing fan\'s site!</p></a></div>';
+	var html4 = '<div class="switch"><a href="http://www.boxing101.com/"><h3>Boxing 101</h3><p>A labor of love and work in progress! An e-commerce site dedicated to all things boxing, even a fantasy fights API! A true boxing fan\'s site!</p></a></div>';
 	var html5 = '<div class="switch"><a href="http://slots.andrewkroll.com"><h3>Slot Machine</h3><p>A slot machine game utilizing jQuery that I developed on my own, from design to logic.</p></a></div>';
 	var html6 = '<div class="switch"><a href="http://youtube.andrewkroll.com"><h3>OMDB Movie Search</h3><p>A YouTube clone I developed with real search from the YouTube API - check it out!</p></a></div>';
-	var html7 = '<div class="switch"><a href="https://americanvoid.herokuapp.com/"><h3>AmericanVoid.com</h3><p>My blog on the American political scene, speaking to those planted firmly in the middle.</p></a></div>';
+	var html7 = '<div class="switch"><a href="http://www.americanvoid.com/"><h3>AmericanVoid.com</h3><p>My blog on the American political scene, speaking to those planted firmly in the middle.</p></a></div>';
 	var html8 = '<div class="switch"><a href=""><h3>Lego(IoT) House</h3><p>My Lego(IoT) House. No link here, this is a real, physical thing! See the description above in the Featured Project section.</p></a></div>';
 	var html9 = '<div class="switch"><a href=""><h3>IoT Medicine Bottle Reminder Project</h3><p>A secret IoT project I am still working on, currently under development.</p></a></div>';
 
